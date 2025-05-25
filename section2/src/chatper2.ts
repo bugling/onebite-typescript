@@ -21,7 +21,15 @@ let tup1: [number, number] = [1, 2];
 
 let tup2: [number, string, boolean] = [1, "2", true];
 
-tup1.push(1);   // 길이가 고정었지만 push(넣기)가 가능  -> 에러 발생(주의 필요!!)
-tup1.pop();
-tup1.pop();
-tup1.pop();
+// tup1.push(1);   // 길이가 고정었지만 push(넣기)가 가능  -> 에러 발생(주의 필요!!)
+// tup1.pop();
+// tup1.pop();
+// tup1.pop();
+
+const users: [string, number][] = [
+    ["이정환", 1],
+    ["김수환무", 2],
+    ["박명수", 3],
+    ["최인곤", 4],
+    // [5, "루피"]  // 타입 에러 발생    -> 값의 형태를 고정적으로 받을 수 있음
+];
