@@ -5,6 +5,11 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "moduleDetection": "force",
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
 }
